@@ -34,24 +34,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.6}Misserfolgsfaktoren}{9}{section.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Fallbeispiele}{10}{chapter.2}
+\contentsline {chapter}{\numberline {2}Fallbeispiele}{11}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}EA im Bankensektor}{10}{section.2.1}
+\contentsline {section}{\numberline {2.1}EA im Bankensektor}{11}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}EAM Banken}{10}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}EAM Banken}{11}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}BIAN}{10}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}BIAN}{11}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}EA in Regierungen}{10}{section.2.2}
+\contentsline {section}{\numberline {2.2}EA in Regierungen}{11}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}EA in Regierungen}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}EA in Regierungen}{11}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}NEA (NL, DK)}{10}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}NEA (NL, DK)}{11}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}EA im Bildungssektor}{10}{section.2.3}
+\contentsline {section}{\numberline {2.3}EA im Bildungssektor}{11}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}EA im Bildungssektor}{10}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}EA im Bildungssektor}{11}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}EA im terti\IeC {\"a}ren Bildungsbereich (NO)}{10}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}EA im terti\IeC {\"a}ren Bildungsbereich (NO)}{11}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Fazit}{11}{chapter.3}
+\contentsline {chapter}{\numberline {3}Fazit}{12}{chapter.3}

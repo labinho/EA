@@ -73,7 +73,7 @@
       \field{title}{Enterprise Architecture Management in der Praxis: Wandel, Komplexität und IT-Kosten im Unternehmen beherrschen}
       \field{year}{2010}
     \endentry
-    \entry{Krotkov2013}{misc}{}
+    \entry{Korotkov2013}{misc}{}
       \name{author}{1}{}{%
         {{hash=93ec29cfd6ab223e5dc59d5ddae02f9f}{%
            family={Korotkov},
@@ -89,6 +89,29 @@
       \field{labeltitlesource}{title}
       \field{title}{10 wichtige Erfolgsfaktoren für das Corporate Architecture Development Project.}
       \field{year}{2013}
+      \verb{url}
+      \verb andrey-korotkov.ru/2013/11/26/10-klyuchevyx-faktorov-uspexa-proekta-po-razvitiyu-korporativnoj-arxitektury/
+      \endverb
+    \endentry
+    \entry{Ojo2016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e68abcc328a8d6fa2196492e910c6018}{%
+           family={Ojo},
+           family_i={O\bibinitperiod},
+           given={O},
+           given_i={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{e68abcc328a8d6fa2196492e910c6018}
+      \strng{fullhash}{e68abcc328a8d6fa2196492e910c6018}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why Enterprise Architecture fails to deliver benefits to the business.}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://www.linkedin.com/pulse/why-enterprise-architecture-fails-deliver-benefits-oluwaseyi
+      \endverb
     \endentry
   \endsortlist
 \endrefsection
