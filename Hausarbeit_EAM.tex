@@ -22,11 +22,12 @@
 	left=2.5cm,
 	right=2cm,
 	top=2cm,
-	bottom=4cm
+	bottom=3cm
 	}
 \usepackage{float}
 \usepackage{graphicx}
 \usepackage{tabularx}
+\usepackage{enumitem}
 \usepackage{amssymb}
 \usepackage{xcolor}
 \usepackage{hyperref}
@@ -52,12 +53,15 @@
 
 \begin{document}
 \maketitle
-
 \tableofcontents
-\listoffigures
-\listoftables
+
+%\listoffigures
+%\listoftables
+
+
 
 \chapter{Einführung in Enterprise Architecture Management}
+
 Bis zu vorherigem Zeitpunkt erforderten Computermanipulationsverfahren keine derart ausgefeilten Managementstrategien. Heute implementieren Unternehmen neue Technologien, um die Struktur von Unternehmen zu organisieren und einen strategischen Vorteil zu erlangen, weil diese Verfahren im Laufe der Zeit immer komplexer werden.
 
 In der ersten Phase der Business-Integration und IT (ab Mitte der 80er Jahre bis Mitte der 90er Jahre) war es unmöglich, die Automatisierung von Geschäftsprozessen zu realisieren, die auch in der Vor-Computer-Ära existierte. Die zweite Phase (von Mitte der 1990er bis Mitte der 2000er Jahre) ist die Neuorganisation von Geschäftsprozessen. Es wurde davon ausgegangen, dass die Architekten des Informationssystems eine neue Geschäftsorganisationsstruktur anbieten würden, die mit der IT so kompatibel wie möglich ist. Dieser Zeitraum fiel mit der Begeisterung für ERP-Systeme und Geschäftsprozessmodellierungswerkzeuge zusammen. In diesem Zeitraum, in den neue Produkte und Anwendungen  nehmen Platz auf dem Markt, steigen die Anforderungen an die Anpassungsfähigkeit von Unternehmen jedes Jahr. Es besteht die Notwendigkeit für viele makroökonomische Indikatoren zu einer noch umfassenderen Konsolidierung der verschiedenen  Bereiche eines Unternehmens oder einer Organisation durch den Einsatz elektronischer Werkzeuge.
@@ -162,13 +166,13 @@ Die Handlungsfelder folgen aus der EAM Pyramide, welche die Basis für die Struk
 \begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=0.75\textwidth]{Abbildungen/Pyramide.png}
-\caption{EAM Pyramide und Handlungsfelder nach}
+\caption{EAM Pyramide und Handlungsfelder (Quelle: \cite{Keuntje2010})}
 \label{fig:pyramide}
 \end{center}
 \end{figure}
 
 
-Die Organisation der EAM-Pyramide ermöglicht , die gesamte Bandbreite der Geschäftsaktivitäten als Ganzes zu sehen. Dies erleichtert das EAM-Team auf bestimmte Ziele konzentrieren und die Verfahren in der  Reihe einer nach dem anderen implementieren damit die nicht ihre Zeit mit vielen  Projekte verlieren, die zeitraubend und anstrengend sind.Die vom Leser gesehene Stratifizierung der Ebenen gliedert sich in die 5 Unterstufen.
+Die Organisation der EAM-Pyramide (\autoref{fig:pyramide}) ermöglicht die gesamte Bandbreite der Geschäftsaktivitäten als Ganzes zu sehen. Dies erleichtert das EAM-Team auf bestimmte Ziele konzentrieren und die Verfahren in der  Reihe einer nach dem anderen implementieren damit die nicht ihre Zeit mit vielen  Projekte verlieren, die zeitraubend und anstrengend sind.Die vom Leser gesehene Stratifizierung der Ebenen gliedert sich in die 5 Unterstufen.
 
 \paragraph{Basisinfastruktur} Auf der unteren Ebene befinden sich die IT Architekturelemente einer Firma. Hardwarekomponeneten (Netze,Speicherlösungen) und die Technologiekomponente (Betriebsysteme, Datenbanksysteme) werden durch Technologie Normen standardisieren und skalierbar zu gestalten.
 
@@ -182,23 +186,88 @@ Die Organisation der EAM-Pyramide ermöglicht , die gesamte Bandbreite der Gesch
 \mbox{}\\
 
 Die Pyramide ist das Herzstück der Tätigkeit von EAM, aber um die Architektur wertschätzen zu können, müssen die Felder in Kontakt mit ihr bleiben. Jeder von ihnen trägt unterschiedlich zur Gründung von EAM bei und ist verantwortlich für verschiedene Arbeiten.
-	
- 
-EAM Strategie: basiert auf der Festlegung von Zielen, Kosten, Nutzen und dem reibungslosen Ablauf von EAM. Als ersten Schritt im Integrationsprozess leiten die Architekten die Erstellung eines EAM-Teams, um den Fortschritt des Projekts zu überwachen und anzupassen und dann empfehlen sie die Bestimmung von 4 Paketen:
 
-EAM Maturity Check: Hier wurde die bereits vorhandenen Unternehmensarchitektur, die Art ihrer Verwaltung und die existierenden Elemente, der IT Manager helfen, die Unternehmenskultur zu verstehen und die Ist-Zustand zu bestimmen. Die Erstellung eines Fragebogens wäre sehr hilfreich.
-EAM Business Case: Damit Unternehmer Kosten und Nutzen von EAM berechnen können, ist es wünschenswert ein Business Case, die die Nutzenpotenziale und Gewinne dieser Investition erfasst.
-EAM Ziele und Kennzahlen: Die Festlegung von strategischen, taktischen und operativen Zielen ist es sehr wichtig um geschäftlichen Anforderungen auszurichten. Durch die Ziele den Nutzen werden einige wesentlichen Kennzahlen zum Messen der Ziellerreichung für EAM anzuordnen.
-EAM Programm und Roadmap: An diesem Punkt wird die Formulierung des Einführungsplans gemacht. Also alle Regeln und Aktivitäten, die in den verbleibenden Handlungsfeldern und ihrer Synchronisation folgen werden.
-EAM-Content: Mit der Hilfe einem EAM-Werkzeug oder Framework wird ein geeignetes Metamodel entwickelt. Die Modellierungsprinzipien mussten deutlich die Richtlinien den Ebenen der EAM Pyramide betrachten und den Plan für Stufe vorsichtig entwerfen.
-EAM-Prozesse: Bei diesem Feld werden manche Schritte gemacht um die Unternehmensarchitektur mit strategische und taktische Planung, nachhaltig steuerbar zu machen. Lösungsszenarien werden entwickelt damit die Beteiligten herausfinden können mit welchen Anwendungen, die geschäftliche Anforderungen umgesetzt werden, um eine optimale Bebauung von Anwendungen zu erreichen (Bebauungsplan).  Nach der Beschaffung des Bebauungsplans folgt seine Übergabe im Bereich IT-Projekt-Portfolio Management damit die finanzielle Kontrolle und Durchführung des Projekts mit der notwendigen finanziellen Zuteilung des Plans verwirklichen kann.
+%%%
 
+\paragraph{EAM Strategie}
+basiert auf der Festlegung von Zielen, Kosten, Nutzen und dem reibungslosen Ablauf von EAM. Als ersten Schritt im Integrationsprozess leiten die Architekten die Erstellung eines EAM-Teams, um den Fortschritt des Projekts zu überwachen und anzupassen und dann empfehlen sie die Bestimmung von 4 Paketen:
+%%%%%%
+
+\textbf{EAM Maturity Check}
+Hier wurde die bereits vorhandenen Unternehmensarchitektur, die Art ihrer Verwaltung und die existierenden Elemente, der IT Manager helfen, die Unternehmenskultur zu verstehen und die Ist-Zustand zu bestimmen. Die Erstellung eines Fragebogens wäre sehr hilfreich.
+
+\textbf{EAM Business Case}
+Damit Unternehmer Kosten und Nutzen von EAM berechnen können, ist es wünschenswert ein Business Case, die die Nutzenpotenziale und Gewinne dieser Investition erfasst.
+
+\textbf{EAM Ziele und Kennzahlen}
+Die Festlegung von strategischen, taktischen und operativen Zielen ist es sehr wichtig um geschäftlichen Anforderungen auszurichten. Durch die Ziele den Nutzen werden einige wesentlichen Kennzahlen zum Messen der Ziellerreichung für EAM anzuordnen.
+
+\textbf{EAM Programm und Roadmap}
+An diesem Punkt wird die Formulierung des Einführungsplans gemacht. Also alle Regeln und Aktivitäten, die in den verbleibenden Handlungsfeldern und ihrer Synchronisation folgen werden.
+\setlength{\leftskip}{0pt}
+%%%
+
+\paragraph{EAM-Content} Mit der Hilfe einem EAM-Werkzeug oder Framework wird ein geeignetes Metamodel entwickelt. Die Modellierungsprinzipien mussten deutlich die Richtlinien den Ebenen der EAM Pyramide betrachten und den Plan für Stufe vorsichtig entwerfen.
+
+\paragraph{EAM-Prozesse} Bei diesem Feld werden manche Schritte gemacht um die Unternehmensarchitektur mit strategische und taktische Planung, nachhaltig steuerbar zu machen. Lösungsszenarien werden entwickelt damit die Beteiligten herausfinden können mit welchen Anwendungen, die geschäftliche Anforderungen umgesetzt werden, um eine optimale Bebauung von Anwendungen zu erreichen (Bebauungsplan).  Nach der Beschaffung des Bebauungsplans folgt seine Übergabe im Bereich IT-Projekt-Portfolio Management damit die finanzielle Kontrolle und Durchführung des Projekts mit der notwendigen finanziellen Zuteilung des Plans verwirklichen kann.
+
+\paragraph{EAM-Werkzeuge}
 Die EAM-Tools zentralisieren die verteilte Dokumentation der Unternehmensarchitektur. Es gibt viele Arten von Werkzeugen, aber es ist sehr wichtig, das geeignete Werkzeug für die neue Architektur zu finden. Hier sollte Das Ist-Zustand berücksichtigt werden, damit Anwendungen mit EAM-Tools abgeglichen werden können. Der Schwierigkeitsgrad ist Heutzutage eine Entscheidung über einen modernen und nachhaltigen Werkzeug zu treffen.
+\mbox{}\\
+
 Wie aus dem Zusammenhang ersichtlich ist, gibt es eine große Menge an Anpassungsmaßnahmen, die das Unternehmen in die verschiedenen Bereiche des Unternehmens integrieren muss. Viele Arbeitseinsätze müssen geändert werden, die Archive werden diversifiziert, der Alltag der Mitarbeiter wird sich ändern.
 
 \section{Erfolgsfaktoren}
-\autocite{Krotkov2013}
+Es ist Zweifelhaft für das Unternehmen manchmal zu schauen ob EAM  einen Wertbeitrag erzeugt. Manche merken dass die Umsetzung fachlicher Anforderungen in Anwendungen länger dauert und teurer ist als zuvor ohne EAM.
+Der Erfolg oder Misserfolg jedes Projekts wird nicht nur von direkten Teilnehmern, sondern auch von einer Reihe von externen Akteuren bestimmt. Er  liegt vor allem in einer Vielzahl kritischer unterschiedlicher Faktoren.
+\\
+\textbf{Schnelle Ergebnisse}: Das Projekt muss das Erreichen kurzfristiger Ziele sicherstellen. Es ist wichtig, das Interesse des Managements am Projekt wach zu halten. Um dies zu erreichen, muss es schnell die notwendigen Ergebnisse für das Unternehmen erzielen. Wenn unmittelbare Ergebnisse nicht innerhalb von 3 Jahren auftreten, wird das Interesse am Projekt deutlich reduziert.
+\\
+\textbf{Top-Manager}: Sein Hauptzweck ist es, Probleme in der Organisation zu identifizieren und zu beseitigen. CIOs müssen nicht nur Probleme rechtzeitig identifizieren, sondern auch eine klare Vorstellung von den Ansätzen haben, die in jedem konkreten Fall anzuwenden sind.
+\\
+\textbf{Schrittweises Vorgehen zum Erreichen gesetzter, messbarer Zwischenziele entlang einer definierten Roadmap}: Das Top-Management soll die Richtlinie der Roadmap verfolgen und die Handlungsfelder für EAM Schritt für Schritt durchführen.
+\\
+\textbf{Taktisches Handeln entlang der Strategie}: Es ist sehr wahrscheinlich wegen der verschiedenen Ziele im Plan (Bugdet, externe Einflussfaktoren, Zwecke von EAM), dass Konflikte zwischen den Mitgliedern des EAM-Team entstehen. Für jede Lösung müssen Nutzen, Zeitpläne, Kosten und Risiken bewertet, und die Bebauungspläne berücksichtigt werden.
+\\
+\textbf{Begreifen der Unternehmensarchitektur als ein sich evolutionär weiterentwickelndes  Ganzes}: Manchmal läuft die Unternehmensarchitektur nicht so wie geplant, und es gibt zwischen dem Ist-Zustand und dem Soll Zustand einen Unterschied. Ein gute Praxis in einer solchen Situation wäre, wenn die entsprechenden Personen flexible auf diese Fälle reagieren können.
+\\
+\textbf{Kommunikation zwischen der IT-Organisation und der Business-Organisation mit den Geschäftsbereichen}: Es ist manchmal Zweifelhaft für das Unternehmen zu erkennen, ob EAM nützlich ist und einen Wertbeitrag liefert. Manche merken, dass die Umsetzung fachlicher Anforderungen in Anwendungen länger dauert und teurer ist als zuvor ohne EAM.
+\\
+\textbf{Kommunikation innerhalb der IT-Organisation}: Die Unternehmensarchitekten , die für zugewiesene Geschäfts- und IT-Domänen das Know-How für die Projekte bereitstellen, sollten die Kommunikation mit dem zentralen EAM-Team vermittelnd betreiben, damit die Projekte richtig durchgeführt werden.\autocite{Krotkov2013}
+
+Die einzelnen Verfahren müssen auf der Grundlage des vorbereitenden Plans durchgeführt werden. Der Manager sollte umgehend auf individuelle Änderungen reagieren und das Team koordinieren, so dass Probleme in der Übergangsphase des Projekts vermieden werden können. Die besten Strategien scheitern nicht, weil sie nicht wachsen können, sondern weil es ist sehr schwierig zu bedienen. Die Aussichten in der Regel an das Managementsystem selbst beschränkt, sondern als wirtschaftliche Realität. Daher ist das Hauptziel der erfolgreichen Verwaltung der Konfigurationsmanager Wunsch nach Selbstverbesserung und Bedingungen für die Schaffung einer kohärenten Gruppe und geistiger Entwicklung ihrer Mitglieder zu schaffen.
+
+Daher sollte eine effiziente Architektur diese oben genannten Trends harmonisch kombinieren. Die Verwendung aller aufgeführten Funktionen führt zu dem gewünschten Ergebnis und hilft, die dem Manager zugewiesenen Probleme und Aufgaben zu lösen. Ein moderner Manager sollte in der Lage sein, das Problem aus verschiedenen Blickwinkeln zu sehen und eine ausgewogene, vielschichtige und ganzheitliche Sicht auf alle zu haben. ,als auch sich zu entwickeln und ihre persönliche Effektivität zu steigern. Die Verwendung von allen registrierten Fähigkeiten (Kompetenzen? durch den Treuhänder wird das gewünschte Ergebnis so schnell wie möglich geben und die Probleme und Aufgaben an den Administrator zugewiesen lösen.
+
+
 \section{Misserfolgsfaktoren}
+Jüngsten Berichten zufolge scheitern 66% der architektonischen Geschäftsinitiativen. Aber warum? In den letzten Jahren gab es viele Diskussionen, Expertenmeinungen und schriftliche Stellungnahmen zu diesem Thema.
+Die Geschäftsarchitektur wurde vor ein paar Jahren entwickelt, um der wachsenden Komplexität von IT-Systemen und ihrer schlechten Ausrichtung auf Geschäftsziele gerecht zu werden. Dieselben Probleme bestehen auch heute noch und werden durch den beschleunigten technologischen Wandel verstärkt.
+Im Folgenden finden Sie eine Liste, warum viele Enterprise Architecture-Initiativen fehlschlagen.
+All dies wird sehr optimistisch beschrieben. Es kann sehr leicht sein, den Fehler zu machen und gegen einige Regeln zu stimmen und die Vorschriften nicht zu berücksichtigen. Der Manager sollte nicht nur die Erfolgsfaktoren kennen, sondern auch die Faktoren des Scheiterns betrachten.
+ Es ist sehr nützlich, um die ineinandergreifenden Menschen zu wissen, welche Maßnahmen sollten Sie vermeiden, bevor Sie schnell reagieren kann, wenn Sie feststellen, dass ein Dienst, der ‚eine Entscheidung, die Leitungen genommen wurde das Projekt zu kollabieren.
+Der falsche Lead-Architekt: Eine Person kann EA verstehen, hat jedoch ineffiziente Führungsqualitäten, die nicht zu einer guten Organisationsstruktur und Personalstärke beitragen können.
+Überwachung und Inflexibilität gegenüber der Unternehmenskultur: Für eine erfolgreiche EA muss die Unternehmenskultur bei der Planung und Gestaltung von EA für die Organisation berücksichtigt werden.
+Verspätete Einführung einer effektiven EA-Governance: EA-Governance-Prozesse müssen so früh wie möglich festgelegt werden, statt auf mehr Architekturinhalte zu warten.
+Nicht genug Zeit für Kommunikation: Unternehmensarchitekten müssen die Mitarbeiter unterrichten. Es ist effizient, dass Organisationen einen EA-Kommunikationsplan mit Nachrichten entwickeln und ausführen, die auf jede Zielgruppe zugeschnitten sind.
+Die Auswirkungen nicht messen und nicht kommunizieren: Der Wert von EA ist oft indirekt, was das EA-Programm dem Risiko des Scheiterns aussetzt. Es wird empfohlen, dass Unternehmensarchitekten eine Präsentation geben, um jede Erfolgsgeschichte von EA, die auf ein Projekt angewendet wird, zu demonstrieren.
+Nicht nur Technical Domain-Level-Architektur: EA ist viel breiter, sie umfasst Business-, Informations- und Lösungsarchitektur und nicht nur die technische Domäne. Why Enterprise Architecture fails to deliver benefits to the business Published on February 22, 2016.Oluwaseyi Ojo Ceng. Linkedin Artikel
+Mangel an Sponsoring: Gut gesponserte Architekten können Vertrauen aufbauen, indem sie konsistent aussagekräftige Ergebnisse liefern. Ein Mangel an Sponsoring wird sogar die besten Architekten zum Scheitern bringen.
+Wartung der EA Artifact Factory: EAM-Teams sollten sich darauf konzentrieren, häufige, aussagekräftige und messbare Geschäftsergebnisse zu erzielen.
+An ein bestimmtes Framework oder einem Tool klammern: Es gibt mehr als 80 EA-Frameworks. Der beste Ansatz besteht darin, alle wichtigen Frameworks zu kennen, das meiste von dem, was Sie gelernt haben, zu verwerfen und die verbleibenden 10\% auf eine Weise zu mischen, die der Unternehmenskultur, der Reife und den Geschäftszielen entspricht.
+Denken, dass Enterprise Architecture der Technologiearchitektur entspricht: Die meisten EA-Programme werden von der IT initiiert und kommen nie über den Technologiebereich hinaus. Obwohl Technologiestandards, Technologie-Roadmaps und solide technische Verfahren einfachere, billigere, tragbare, wiederverwendbare und besser unterstützbare Lösungen bieten, stimmen sie Ihre IT-Investitionen nicht mit den Geschäftszielen ab und werden Ihr Unternehmen nicht mit technologischen Innovationen versorgen.
+Das Wort "Enterprise" wörtlich nehmen: Um Architektur auf die reale Unternehmensebene zu bringen, bedarf es einer ausgereiften und engagierten Organisation. Wenn man versucht, den Unternehmensaspekt zu früh zu weit zu schieben, wird man scheitern.
+
+Die erfolglose Umsetzung von Entscheidungen, ihre unnötige Arbeit oder Inkongruenz mit den am Arbeitsplatz gesetzten Zielen wirkt sich unmittelbar auf andere Ebenen aus. Beispielsweise kann eine falsch entworfene Anwendung die organisatorische Leistung beeinträchtigen. Dies wiederum kann den Gewinn aus den Dienstleistungen für die Kunden reduzieren.
+Das Problem wird durch die Tatsache verstärkt, dass diese negativen Effekte schwer zu bestimmen sind, wenn die Messung der Erfolgskriterien nur schlecht oder nicht koordiniert zwischen den Ebenen erfolgt.
+Jede Veränderung in einem Geschäft wie im täglichen Leben des Menschen folgt einer Vielzahl von Entscheidungen, die wir treffen.
+Um also die Architektur des Unternehmens erfolgreich zu verändern, müssen wir berücksichtigen, was genau geändert werden muss, wann es geändert werden muss und wen es ändern wird.
+Das Erzielen einer effizienten EAM ist eines der wichtigsten Geschäftsziele. Viele Unternehmen haben von seiner Konsolidierung profitiert. Wie weiter erhöht den Bedarf an den technischen Fortschritt und die Entwicklung neuer Anwendungen, Programme, fühlen sich mehr Unternehmen Systeme, die die Voraussetzung für die Gestaltung einer solchen Architektur.
+Im Anschluss an den technologischen Fortschritten ist es selbstverständlich, dass nicht nur der private Sektor oder ein bestimmte Partner in einer Wirtschaft schrittweise zu entwickeln. Der Fortschritt eines Landes hängt von der Regierung, ihrem Bildungssystem und ihrem gesunden Bankensystem ab.
+Deshalb, um diesen technologischen Fortschritt in einem Land zu halten und gedeihen transparent (etwas, das viele Länder wünschen), die Verwirklichung Architektur zu erleichtern und Bürokratie reduzieren sollte und andere Wirtschaftsbereiche mit einer technologischen Architektur auszurichten.
+
+In den folgenden Kapiteln werden die Vorteile der EAM in einer Bank betrachten und wird am Beispiel der BIAN, die Regierungs EA der Regierung von Dänemark und den Niederlanden und dem Experiment von Norwegen für die Einrichtung von EA für Universitäten zitieren.
+
 
 \chapter{Fallbeispiele}
 % 1800 Wörter

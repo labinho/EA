@@ -43,6 +43,53 @@
       \field{title}{Enterprise Architecture Management einfach und effektiv: ein praktischer Leitfaden für die Einführung von EAM}
       \field{year}{2016}
     \endentry
+    \entry{Keuntje2010}{book}{}
+      \name{author}{2}{}{%
+        {{hash=42d7b1f78f1406014b59132990147ec2}{%
+           family={Keuntje},
+           family_i={K\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=f3b4e09ebd9c5406e4d0915ae730342d}{%
+           family={Barkow},
+           family_i={B\bibinitperiod},
+           given={R},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Düsseldorf}%
+      }
+      \list{publisher}{1}{%
+        {Symposion Publisching GmbH}%
+      }
+      \strng{namehash}{4aa65c54c4190e8b89a097dfc9230a91}
+      \strng{fullhash}{4aa65c54c4190e8b89a097dfc9230a91}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{978-3-939707-70-7}
+      \field{title}{Enterprise Architecture Management in der Praxis: Wandel, Komplexität und IT-Kosten im Unternehmen beherrschen}
+      \field{year}{2010}
+    \endentry
+    \entry{Krotkov2013}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=93ec29cfd6ab223e5dc59d5ddae02f9f}{%
+           family={Korotkov},
+           family_i={K\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{93ec29cfd6ab223e5dc59d5ddae02f9f}
+      \strng{fullhash}{93ec29cfd6ab223e5dc59d5ddae02f9f}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{10 wichtige Erfolgsfaktoren für das Corporate Architecture Development Project.}
+      \field{year}{2013}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput
