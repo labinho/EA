@@ -1,0 +1,131 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nyt/global/}
+    \entry{Hanschke2016}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2bb478c85db9614215d97afaadfe5451}{%
+           family={Hanschke},
+           family_i={H\bibinitperiod},
+           given={Inge},
+           given_i={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {Carl Hanser Verlag}%
+      }
+      \strng{namehash}{2bb478c85db9614215d97afaadfe5451}
+      \strng{fullhash}{2bb478c85db9614215d97afaadfe5451}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Enterprise Architecture Management einfach und effektiv: ein praktischer Leitfaden für die Einführung von EAM}
+      \field{year}{2016}
+    \endentry
+    \entry{Keuntje2010}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=42d7b1f78f1406014b59132990147ec2}{%
+           family={Keuntje},
+           family_i={K\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=f3b4e09ebd9c5406e4d0915ae730342d}{%
+           family={Barkow},
+           family_i={B\bibinitperiod},
+           given={R},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Düsseldorf}%
+      }
+      \list{publisher}{1}{%
+        {Symposion Publisching GmbH}%
+      }
+      \strng{namehash}{4aa65c54c4190e8b89a097dfc9230a91}
+      \strng{fullhash}{4aa65c54c4190e8b89a097dfc9230a91}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{978-3-939707-70-7}
+      \field{title}{Enterprise Architecture Management in der Praxis: Wandel, Komplexität und IT-Kosten im Unternehmen beherrschen}
+      \field{year}{2010}
+    \endentry
+    \entry{Korotkov2013}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=93ec29cfd6ab223e5dc59d5ddae02f9f}{%
+           family={Korotkov},
+           family_i={K\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{93ec29cfd6ab223e5dc59d5ddae02f9f}
+      \strng{fullhash}{93ec29cfd6ab223e5dc59d5ddae02f9f}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{10 wichtige Erfolgsfaktoren für das Corporate Architecture Development Project.}
+      \field{year}{2013}
+      \verb{url}
+      \verb andrey-korotkov.ru/2013/11/26/10-klyuchevyx-faktorov-uspexa-proekta-po-razvitiyu-korporativnoj-arxitektury/
+      \endverb
+    \endentry
+    \entry{Ojo2016}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e68abcc328a8d6fa2196492e910c6018}{%
+           family={Ojo},
+           family_i={O\bibinitperiod},
+           given={O},
+           given_i={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{e68abcc328a8d6fa2196492e910c6018}
+      \strng{fullhash}{e68abcc328a8d6fa2196492e910c6018}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why Enterprise Architecture fails to deliver benefits to the business.}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://www.linkedin.com/pulse/why-enterprise-architecture-fails-deliver-benefits-oluwaseyi
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
