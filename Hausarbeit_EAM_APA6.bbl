@@ -56,6 +56,44 @@
       \verb https://doi.org/10.1016/j.procs.2016.09.141
       \endverb
     \endentry
+    \entry{BIAN}{booklet}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1acab9a71bf145ee9fab42329ad9ef31}{%
+           family={{Banking Industry Architecture Network}},
+           family_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{1acab9a71bf145ee9fab42329ad9ef31}
+      \strng{fullhash}{1acab9a71bf145ee9fab42329ad9ef31}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Building the Future of Banking Services}
+      \field{year}{2013}
+    \endentry
+    \entry{BIAN2}{url}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1acab9a71bf145ee9fab42329ad9ef31}{%
+           family={{Banking Industry Architecture Network}},
+           family_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{1acab9a71bf145ee9fab42329ad9ef31}
+      \strng{fullhash}{1acab9a71bf145ee9fab42329ad9ef31}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Benefits}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \verb{url}
+      \verb https://bian.org/members/benefits/
+      \endverb
+    \endentry
     \entry{ICT2015}{misc}{}
       \name{author}{7}{}{%
         {{uniquename=0,hash=c2583e0131e2d714d871f20a8ff71a0c}{%
@@ -134,6 +172,29 @@
       \verb https://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/why-business-needs-should-shape-it-architecture
       \endverb
     \endentry
+    \entry{Cole2016}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ad008c0fde7b8544ecdf72bfdb889bee}{%
+           family={Cole},
+           family_i={C\bibinitperiod},
+           given={Zak},
+           given_i={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad008c0fde7b8544ecdf72bfdb889bee}
+      \strng{fullhash}{ad008c0fde7b8544ecdf72bfdb889bee}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{University and Education Enterprise Architecture}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://erwin.com/blog/university-education-enterprise-architecture/
+      \endverb
+    \endentry
     \entry{Hanschke2016}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=2bb478c85db9614215d97afaadfe5451}{%
@@ -186,6 +247,9 @@
       \field{booktitle}{Proceedings of the 40th Hawaii International Conference on System Sciences}
       \field{title}{Analyzing Enterprise Architecture in National Governments: The cases of Denmark and the Netherlands}
       \field{year}{2007}
+      \verb{url}
+      \verb https://doi.org/10.1109/HICSS.2007.79
+      \endverb
     \endentry
     \entry{Kabai2010}{url}{}
       \name{author}{1}{}{%
@@ -208,6 +272,29 @@
       \field{year}{2013}
       \verb{url}
       \verb https://www.informationweek.com/it-leadership/8-reasons-enterprise-architecture-programs-fail/d/d-id/1109248
+      \endverb
+    \endentry
+    \entry{Kamarianakis2016}{url}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=080e6eb0a6b300f40402ac1a899ac867}{%
+           family={Kamarianakis},
+           family_i={K\bibinitperiod},
+           given={Stavros},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{080e6eb0a6b300f40402ac1a899ac867}
+      \strng{fullhash}{080e6eb0a6b300f40402ac1a899ac867}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Enterprise Architecture Management -- Die gro{ß}e Konstante in einer veränderten IT-Welt}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://www.der-bank-blog.de/enterprise-architecture-management/technologie/23408/
       \endverb
     \endentry
     \entry{Keuntje2010}{book}{}
@@ -314,6 +401,45 @@
       \verb https://www.linkedin.com/pulse/why-enterprise-architecture-fails-deliver-benefits-oluwaseyi
       \endverb
     \endentry
+    \entry{Olsen2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=dfdad1be3fb582eb49fd762b162b8f1b}{%
+           family={Olsen},
+           family_i={O\bibinitperiod},
+           given={Dag\bibnamedelima H.},
+           given_i={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=c771452d607ef91c29a7f9e3b39e0aad}{%
+           family={Trelsgård},
+           family_i={T\bibinitperiod},
+           given={Kjersti},
+           given_i={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{202a5e25f4beec29ff045a417988153f}
+      \strng{fullhash}{202a5e25f4beec29ff045a417988153f}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1877-0509}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{Enterprise Architecture Adoption Challenges: An exploratory Case Study of the Norwegian Higher Education Sector}
+      \field{volume}{100}
+      \field{year}{2016}
+      \field{pages}{804\bibrangedash 811}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.procs.2016.09.228
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.procs.2016.09.228
+      \endverb
+    \endentry
     \entry{Pallab2010}{report}{}
       \name{author}{6}{}{%
         {{uniquename=0,hash=4be3f16626397e036d3ca08154716c55}{%
@@ -364,6 +490,30 @@
       \field{year}{2010}
       \verb{url}
       \verb http://unpan1.un.org/intradoc/groups/public/documents/unpan/unpan039390.pdf
+      \endverb
+    \endentry
+    \entry{RSN2014}{manual}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8d2b028bbb9947f2066289701d98dfa3}{%
+           family={{U.S. Departmend of Education}},
+           family_i={U\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Reform Support Network}%
+      }
+      \strng{namehash}{8d2b028bbb9947f2066289701d98dfa3}
+      \strng{fullhash}{8d2b028bbb9947f2066289701d98dfa3}
+      \field{sortinit}{U}
+      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Education Enterprise Architecture Guidebook}
+      \field{year}{2014}
+      \verb{url}
+      \verb https://www2.ed.gov/about/inits/ed/implementation-support-unit/tech-assist/education-architecture-guidebook.pdf
       \endverb
     \endentry
     \entry{Bitkom2011}{inproceedings}{}

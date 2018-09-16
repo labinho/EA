@@ -43,21 +43,21 @@
 \contentsline {section}{\numberline {3}Fallbeispiele}{10}{section.3}
 \contentsline {subsection}{\numberline {3.1}EA im Bankensektor}{11}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}EAM Banken}{11}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}BIAN}{12}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2}BIAN}{13}{subsubsection.3.1.2}
 \contentsline {paragraph}{Reduziert die Komplexit\IeC {\"a}t}{13}{section*.38}
 \contentsline {paragraph}{Reduktion von dualen Systemen}{13}{section*.39}
 \contentsline {paragraph}{Kostenreduzierung}{13}{section*.40}
 \contentsline {paragraph}{Interoperabilit\IeC {\"a}t}{13}{section*.41}
-\contentsline {paragraph}{Sicherheit}{13}{section*.42}
-\contentsline {paragraph}{Outsourcing von Dienstleistungen}{13}{section*.43}
-\contentsline {subsection}{\numberline {3.2}EA in Regierungen}{13}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}EA in Regierungen}{13}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}NEA (NL, DK)}{14}{subsubsection.3.2.2}
-\contentsline {subsection}{\numberline {3.3}EA im Bildungssektor}{17}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}EA im Bildungssektor}{17}{subsubsection.3.3.1}
-\contentsline {paragraph}{Studenten}{17}{section*.48}
-\contentsline {paragraph}{Lehrpersonal}{17}{section*.49}
-\contentsline {paragraph}{Forscher}{17}{section*.50}
-\contentsline {paragraph}{Management}{17}{section*.51}
-\contentsline {subsubsection}{\numberline {3.3.2}EA im terti\IeC {\"a}ren Bildungsbereich (NO)}{18}{subsubsection.3.3.2}
-\contentsline {section}{\numberline {4}Fazit}{20}{section.4}
+\contentsline {paragraph}{Sicherheit}{14}{section*.42}
+\contentsline {paragraph}{Outsourcing von Dienstleistungen}{14}{section*.43}
+\contentsline {subsection}{\numberline {3.2}EA in Regierungen}{14}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}EA in Regierungen}{14}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}NEA (NL, DK)}{15}{subsubsection.3.2.2}
+\contentsline {subsection}{\numberline {3.3}EA im Bildungssektor}{18}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}EA im Bildungssektor}{18}{subsubsection.3.3.1}
+\contentsline {paragraph}{Studenten}{18}{section*.48}
+\contentsline {paragraph}{Lehrpersonal}{18}{section*.49}
+\contentsline {paragraph}{Forscher}{18}{section*.50}
+\contentsline {paragraph}{Management}{18}{section*.51}
+\contentsline {subsubsection}{\numberline {3.3.2}EA im terti\IeC {\"a}ren Bildungsbereich (NO)}{19}{subsubsection.3.3.2}
+\contentsline {section}{\numberline {4}Fazit}{21}{section.4}

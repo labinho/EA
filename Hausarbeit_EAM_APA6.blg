@@ -1,15 +1,15 @@
-[1] Config.pm:343> INFO - This is Biber 2.5
-[1] Config.pm:346> INFO - Logfile is 'Hausarbeit_EAM_APA6.blg'
-[114] biber-darwin:290> INFO - === Sun Sep 16, 2018, 16:41:08
-[212] Biber.pm:351> INFO - Reading 'Hausarbeit_EAM_APA6.bcf'
-[333] Biber.pm:776> INFO - Found 12 citekeys in bib section 0
-[351] Biber.pm:3493> INFO - Processing section 0
-[445] Biber.pm:3657> INFO - Looking for bibtex format file 'Literaturverzeichnis.bib' for section 0
-[480] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
-[485] bibtex.pm:1048> INFO - Found BibTeX data source 'Literaturverzeichnis.bib'
-[746] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[747] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[747] Biber.pm:3306> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'de-DE'
-[747] Biber.pm:3310> INFO - No sort tailoring available for locale 'de-DE'
-[766] bbl.pm:526> INFO - Writing 'Hausarbeit_EAM_APA6.bbl' with encoding 'UTF-8'
-[770] bbl.pm:619> INFO - Output to Hausarbeit_EAM_APA6.bbl
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'Hausarbeit_EAM_APA6.blg'
+[63] biber-darwin:290> INFO - === Sun Sep 16, 2018, 18:41:32
+[90] Biber.pm:351> INFO - Reading 'Hausarbeit_EAM_APA6.bcf'
+[225] Biber.pm:776> INFO - Found 18 citekeys in bib section 0
+[245] Biber.pm:3493> INFO - Processing section 0
+[264] Biber.pm:3657> INFO - Looking for bibtex format file 'Literaturverzeichnis.bib' for section 0
+[275] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[281] bibtex.pm:1048> INFO - Found BibTeX data source 'Literaturverzeichnis.bib'
+[408] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[408] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[408] Biber.pm:3306> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'de-DE'
+[408] Biber.pm:3310> INFO - No sort tailoring available for locale 'de-DE'
+[440] bbl.pm:526> INFO - Writing 'Hausarbeit_EAM_APA6.bbl' with encoding 'UTF-8'
+[444] bbl.pm:619> INFO - Output to Hausarbeit_EAM_APA6.bbl
