@@ -19,6 +19,121 @@
 
 \refsection{0}
   \sortlist[entry]{nyt/global/}
+    \entry{Bakar2016}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=ffad611594e04a69e66b865c092937c3}{%
+           family={Bakar},
+           family_i={B\bibinitperiod},
+           given={Nur\bibnamedelima Azaliah},
+           given_i={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=f6a51a696e6b636f01f437de115f6ab2}{%
+           family={Harihodin},
+           family_i={H\bibinitperiod},
+           given={S},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=ee3c4cfd0464e06ed5d3059c472f4397}{%
+           family={Kama},
+           family_i={K\bibinitperiod},
+           given={Nazzri},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2e459618f689d6c63258fdef8ed5e68}
+      \strng{fullhash}{40f5b002dc1ed40acd83c7fe964723d4}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{Assessment of Enterprise Architecture Implementation Capability and Priority in Public Sector Agency}
+      \field{volume}{100}
+      \field{year}{2016}
+      \field{pages}{198\bibrangedash 206}
+      \range{pages}{9}
+      \verb{url}
+      \verb https://doi.org/10.1016/j.procs.2016.09.141
+      \endverb
+    \endentry
+    \entry{ICT2015}{misc}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=c2583e0131e2d714d871f20a8ff71a0c}{%
+           family={Bergh-Hoff},
+           family_i={B\bibinithyphendelim H\bibinitperiod},
+           given={Heidi},
+           given_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=ebe4aac9d3feffefec60603d8df97618}{%
+           family={S{ø}rensen},
+           family_i={S\bibinitperiod},
+           given={Carl-Fredrik},
+           given_i={C\bibinithyphendelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=e63803a82af7024b25c7f6aa3b2c3e42}{%
+           family={Garshol},
+           family_i={G\bibinitperiod},
+           given={Jan\bibnamedelima Erik},
+           given_i={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=0,hash=d63238e15b7bbac41d5e66897e933898}{%
+           family={Moum\bibnamedelima Jakobsen},
+           family_i={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Bård\bibnamedelima Henry},
+           given_i={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=bbe0bee6720929c1e19838ee292c9fa1}{%
+           family={Vangen},
+           family_i={V\bibinitperiod},
+           given={Geir\bibnamedelima Magne},
+           given_i={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=e04761f541d2b6c529b2651f31bacccb}{%
+           family={Pettersen},
+           family_i={P\bibinitperiod},
+           given={{Ø}rjan\bibnamedelima Dypvik},
+           given_i={Ø\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=05138a21842571f6bfa45239f94d759a}{%
+           family={Hansen},
+           family_i={H\bibinitperiod},
+           given={Johnny},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f68995b462721a0f200ee2e90e107d5f}
+      \strng{fullhash}{9c8455770936f82a591089c339709a47}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ICT Architecture Principles for the Norwegian Higher Education Sector}
+      \field{year}{2015}
+    \endentry
+    \entry{McKinsey}{url}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=6da5da8f6b926d5e2e56045c62efb79e}{%
+           family={Buckow},
+           family_i={B\bibinitperiod},
+           given={Helge},
+           given_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=fff9302e88d21bbb260c44da55e514e0}{%
+           family={Rey},
+           family_i={R\bibinitperiod},
+           given={Stéphane},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{628f79ad4630c27e62b4efd9e9e417b1}
+      \strng{fullhash}{628f79ad4630c27e62b4efd9e9e417b1}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why business needs should shape IT architecture}
+      \field{year}{2010}
+      \verb{url}
+      \verb https://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/why-business-needs-should-shape-it-architecture
+      \endverb
+    \endentry
     \entry{Hanschke2016}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=2bb478c85db9614215d97afaadfe5451}{%
@@ -45,6 +160,55 @@
       \field{edition}{2}
       \field{title}{Enterprise Architecture Management einfach und effektiv: ein praktischer Leitfaden für die Einführung von EAM}
       \field{year}{2016}
+    \endentry
+    \entry{Janssen2007}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=c1fd42806e363295bda101989363522c}{%
+           family={Janssen},
+           family_i={J\bibinitperiod},
+           given={Marijn},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=91c836e57795778720b5c6765ec17e0a}{%
+           family={Hjort-Madsen},
+           family_i={H\bibinithyphendelim M\bibinitperiod},
+           given={Kristian},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c02472eb22063e8ccf5a342b990f85a}
+      \strng{fullhash}{7c02472eb22063e8ccf5a342b990f85a}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 40th Hawaii International Conference on System Sciences}
+      \field{title}{Analyzing Enterprise Architecture in National Governments: The cases of Denmark and the Netherlands}
+      \field{year}{2007}
+    \endentry
+    \entry{Kabai2010}{url}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ae8d7d0b423503204fab12832f124849}{%
+           family={Kabai},
+           family_i={K\bibinitperiod},
+           given={Imre},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae8d7d0b423503204fab12832f124849}
+      \strng{fullhash}{ae8d7d0b423503204fab12832f124849}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{8 Reasons Enterprise Architecture Programs Fail}
+      \field{year}{2013}
+      \verb{url}
+      \verb https://www.informationweek.com/it-leadership/8-reasons-enterprise-architecture-programs-fail/d/d-id/1109248
+      \endverb
     \endentry
     \entry{Keuntje2010}{book}{}
       \name{author}{2}{}{%
@@ -102,6 +266,31 @@
       \verb andrey-korotkov.ru/2013/11/26/10-klyuchevyx-faktorov-uspexa-proekta-po-razvitiyu-korporativnoj-arxitektury/
       \endverb
     \endentry
+    \entry{Napitupulu2016}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=91d0dbb0fef852a5b040f080ef2fdfeb}{%
+           family={Napitupulu},
+           family_i={N\bibinitperiod},
+           given={Darmawan},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91d0dbb0fef852a5b040f080ef2fdfeb}
+      \strng{fullhash}{91d0dbb0fef852a5b040f080ef2fdfeb}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Bina Praja}
+      \field{title}{e-Government Maturity Based on Systematic Review and Meta Ethnography Approach}
+      \field{volume}{8}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://doi.org/10.21787/jbp.08.2016.263-275
+      \endverb
+    \endentry
     \entry{Ojo2016}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=e68abcc328a8d6fa2196492e910c6018}{%
@@ -123,6 +312,82 @@
       \field{year}{2016}
       \verb{url}
       \verb https://www.linkedin.com/pulse/why-enterprise-architecture-fails-deliver-benefits-oluwaseyi
+      \endverb
+    \endentry
+    \entry{Pallab2010}{report}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=4be3f16626397e036d3ca08154716c55}{%
+           family={Saha},
+           family_i={S\bibinitperiod},
+           given={Pallab},
+           given_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=cce01353d284ef423869ad617952006a}{%
+           family={Isabel\bibnamedelimb Mejia\bibnamedelima Jaramillo},
+           family_i={I\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Maria},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=e06675c7552465c624a0e8cb49731121}{%
+           family={Sy\bibnamedelima Loi},
+           family_i={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Ho},
+           given_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=e67887198aed43ab55a9f1dfa7513736}{%
+           family={AlShanfari},
+           family_i={A\bibinitperiod},
+           given={Omar},
+           given_i={O\bibinitperiod}}}%
+        {{uniquename=0,hash=a95cd35b4bb7833ac5bab0c99fa45a8a}{%
+           family={Qian},
+           family_i={Q\bibinitperiod},
+           given={Haiyan},
+           given_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=bdae18d338f83fe3e15c9d7ab2c11635}{%
+           family={Zoughbi},
+           family_i={Z\bibinitperiod},
+           given={Saleem},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {NUS Institute of Systems Science}%
+      }
+      \strng{namehash}{747613869c906b6d1f5441f3d4b75899}
+      \strng{fullhash}{e54d95c5de354f74c906dc4c4f1bcd88}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Enterprise Architecture as Platform for Connected Government -- Understanding the Impact of Enterprise Architecture on Connected Government}
+      \field{type}{techreport}
+      \field{year}{2010}
+      \verb{url}
+      \verb http://unpan1.un.org/intradoc/groups/public/documents/unpan/unpan039390.pdf
+      \endverb
+    \endentry
+    \entry{Bitkom2011}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=edaadad566e6b17cbcd99b058cec1d22}{%
+           family={Weber},
+           family_i={W\bibinitperiod},
+           given={Matthias},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{edaadad566e6b17cbcd99b058cec1d22}
+      \strng{fullhash}{edaadad566e6b17cbcd99b058cec1d22}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Leitfaden EAM Enterprise Architecture Management}
+      \field{title}{Enterprise Architecture Management -- neue Disziplin für die ganzheitliche Unternehmensentwicklung}
+      \field{year}{2011}
+      \verb{url}
+      \verb https://www.bitkom.org/Bitkom/Publikationen/Leitfaden-EAM-Enterprise-Architecture-Management.html
       \endverb
     \endentry
   \endsortlist
